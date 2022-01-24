@@ -18,3 +18,13 @@ CRITICAL - 2022-01-24 08:53:56 --> Invalid file: templates/index.php
 #6 C:\xampp\htdocs\allTech\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\allTech\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #8 {main}
+CRITICAL - 2022-01-24 08:57:24 --> Invalid file: templates/index.php
+#0 C:\xampp\htdocs\allTech\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/index...')
+#1 C:\xampp\htdocs\allTech\system\Common.php(1089): CodeIgniter\View\View->render('templates/index', Array, true)
+#2 C:\xampp\htdocs\allTech\app\Controllers\inicio.php(12): view('templates/index')
+#3 C:\xampp\htdocs\allTech\system\CodeIgniter.php(825): App\Controllers\Inicio->index()
+#4 C:\xampp\htdocs\allTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp\htdocs\allTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\allTech\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\allTech\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

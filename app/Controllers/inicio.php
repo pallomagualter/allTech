@@ -9,7 +9,7 @@ class Inicio extends Controller
     public function index()
     {
         echo View('templates/header');
-        echo View('templates/index');
+        echo View('inicio/index');
         echo View('templates/footer');
     }
 }
