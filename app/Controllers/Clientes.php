@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-use App\Models\ClienteModel;
 use CodeIgniter\Controller;
 
 class Clientes extends Controller 
